@@ -7,9 +7,8 @@ export default function RegistrationForm({}) {
                 <div className="row justify-content-center">
                     <div className="col">
                         <div className=" mb-5 pb-5 text-center">
-                            <h1 className="display-4 ">Wedding Registry</h1>
-                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8">The best present you
-                                could possibly give us </p>
+                            <h1 className="display-4 ">Attend the Wedding</h1>
+                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8">Let us know if you are coming & about food preferences</p>
                         </div>
                     </div>
                 </div>
