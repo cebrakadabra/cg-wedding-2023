@@ -13,6 +13,7 @@ import SaveTheDate from "../../components/SaveTheDate";
 import Story from "../../components/Story";
 import Events from "../../components/Events";
 import GiftRegistry from "../../components/GiftRegistry";
+import Gallery from "../../components/Gallery";
 import RegistrationForm from "../../components/RegistrationForm";
 import WhereToStay from "../../components/WhereToStay";
 import Video from "../../components/Video";
@@ -52,8 +53,9 @@ const Austria = observer(({page}) => {
                 />
                 <Story />
                 <Events />
+                <Gallery />
                 <GiftRegistry />
-                {/*<RegistrationForm />*/}
+                <RegistrationForm />
                 <WhereToStay />
                 <Video />
                 <Footer />

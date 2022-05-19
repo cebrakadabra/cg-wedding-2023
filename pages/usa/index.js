@@ -15,6 +15,8 @@ import GiftRegistry from "../../components/GiftRegistry";
 import WhereToStay from "../../components/WhereToStay";
 import Video from "../../components/Video";
 import Footer from "../../components/Footer";
+import Gallery from "../../components/Gallery";
+import RegistrationForm from "../../components/RegistrationForm";
 
 require('./index.less');
 
@@ -44,8 +46,9 @@ const Usa = observer(({page}) => {
                 />
                 <Story />
                 <Events />
+                <Gallery />
                 <GiftRegistry />
-                {/*<RegistrationForm />*/}
+                <RegistrationForm />
                 <WhereToStay />
                 <Video />
                 <Footer />
