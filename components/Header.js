@@ -27,6 +27,7 @@ export default function Header({}) {
                                 {/*<li><a className=" nav-link scroll" href="#friends">Friends</a></li>*/}
                                 <li><a className=" nav-link scroll" href="#rsvp">Rsvp</a></li>
                                 <li><a className=" nav-link scroll" href="#location">Location</a></li>
+                                <br/>
                             </ul>
                         </div>
                     </nav>

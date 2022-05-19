@@ -11,7 +11,7 @@ export default function Hero({bg, date, address}) {
                         {/*<h1 className="display-2 text-white mb-4">{male} &amp; {female}</h1>*/}
                         <img src="/assets/img/logo/cg-white.png" alt=""/>
                         <p className="font-weight-300 text-light  lead mb-5 ">{date}<br/><small>{address}</small></p>
-                        <a href="#rsvp" className="btn btn-primary btn-wide-sm btn-sm  scroll">RSVP</a>
+                        <a href="#rsvp" className="btn btn-primary btn-wide-md btn-md  scroll">&nbsp;&nbsp;&nbsp;RSVP&nbsp;&nbsp;&nbsp;</a>
                     </div>
                 </div>
             </div>

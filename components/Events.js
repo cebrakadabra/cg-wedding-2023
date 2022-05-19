@@ -254,7 +254,7 @@ export default function Events() {
                 <div className="row">
                     <div className="col">
                         <div className=" text-center mt-5 pt-5">
-                            <a href="#rsvp" className="btn btn-primary btn-wide-sm btn-sm  scroll">RSVP</a>
+                            <a href="#rsvp" className="btn btn-primary btn-wide-lg btn-lg  scroll">RSVP</a>
                         </div>
                     </div>
                 </div>
