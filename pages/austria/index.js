@@ -36,13 +36,19 @@ const Austria = observer(({page}) => {
                 <Hero
                     bg="/assets/img/venues/cg-at-venue.jpg"
                     date="14th July 2023"
-                    address="Bürglalmweg 25 Dienten am Hochkönig A-5652"
+                    address="Die Deantnerin, Austria"
                 />
                 <SaveTheDate
                     heading="Save The Date"
-                    date="date ..."
-                    address="... address"
-                    text="Lorem ipsum dolor si amet"
+                    date="14th July 2023"
+                    address="Bürglalmweg 25, Dienten am Hochkönig A-5652"
+                    text={
+                        <>
+                            <p>Real & authentic, modern & classic, modest & uncomplicated -  that is our wedding venue. Arrive, switch off and simply enjoy being there - Come celebrate with us and enjoy the gigantic view of the Austrian Alps.</p>
+                            <a className="btn btn-primary btn-wide-sm btn-sm" href="https://www.deantnerin.at/de/das.bilderbuch" target="_blank">Venue Website</a> &nbsp;&nbsp;&nbsp;
+                            <a className="btn btn-primary btn-wide-sm btn-sm" href="https://www.google.com/maps/dir//Die+Deantnerin+B%C3%BCrglalmweg+25+5652+Dienten+am+Hochk%C3%B6nig/@47.380137,13.011931,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x4776e08033bdd023:0x765a203c6762f46e" target="_blank">Open Directions</a>
+                        </>
+                    }
                 />
                 <Story />
                 <Events />

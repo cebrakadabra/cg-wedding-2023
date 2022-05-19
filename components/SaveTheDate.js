@@ -8,8 +8,9 @@ export default function SaveTheDate({heading, date, address, text}) {
                     <div className="col-md-6 mb-5 mb-md-0">
                         <div className="pr-md-4">
                             <h1 className="font-secondary display-4">{heading}</h1>
-                            <p className="lead font-weight-300 text-dark-gray opacity-8">{date}
-                                - {address}</p>
+                            <p className="lead font-weight-300 text-dark-gray opacity-8">
+                                {date}<br/>
+                                <small>📍 {address}</small></p>
                             <p className="mb-4 pr-5">{text}</p>
                             <div className="countdown row text-center"/>
                         </div>
@@ -46,7 +47,7 @@ export default function SaveTheDate({heading, date, address, text}) {
                                     </mask>
                                 </defs>
                                 <image mask="url(#mask)" width="981" height="885"
-                                       xlinkHref="assets/img/mask-lg.jpg"/>
+                                       xlinkHref="/assets/img/mask-lg.jpg"/>
                                 <g>
                                     <path fill="none" stroke="#E35D5D" strokeWidth="7" strokeLinecap="round"
                                           strokeMiterlimit="10" d="M747.8805,524.349

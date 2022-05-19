@@ -8,16 +8,15 @@ export default function Story() {
                     <div className="col">
                         <div className=" text-center mb-5 pb-5">
                             <h1 className="display-4 mb-0">Our Love Story</h1>
-                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">The Story of our love
-                                and the Wedding</p>
+                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">From the first glass of 🍷  &nbsp;to marriage</p>
                         </div>
                     </div>
                 </div>
                 <div className="row  justify-content-center">
                     <div className="col-lg-12 text-center">
                         <div className="mb-3 pb-3">
-                            <h5 className="mb-0"> When Jena Miller Met Mike Shneider</h5>
-                            <span className="small text-dark-gray opacity-8">That day changed everything</span>
+                            <h5 className="mb-0"> When Georgia met Chris</h5>
+                            <span className="small text-dark-gray opacity-8">and broke a wine glass</span>
                         </div>
                     </div>
                     <div className="col-md-3 d-flex flex-column align-items-center">
@@ -35,7 +34,7 @@ export default function Story() {
                                         </mask>
                                     </defs>
                                     <image mask="url(#mask-small-1)" width="607" height="532"
-                                           xlinkHref="assets/img/mask-md.jpg"/>
+                                           xlinkHref="assets/img/broken-glass.jpg"/>
                                 </svg>
                             </div>
                         </div>
@@ -56,8 +55,8 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">First met</h5>
-                                    <span className="small text-primary">October 2016</span>
+                                    <h5 className="mb-0">First Glass Of 🍷</h5>
+                                    <span className="small text-primary">4th July 2020</span>
                                 </div>
                             </li>
                             <li>
@@ -72,8 +71,8 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">First Dating</h5>
-                                    <span className="small text-primary">April 2017</span>
+                                    <h5 className="mb-0">First Beach Sunset 🏝️</h5>
+                                    <span className="small text-primary">July 31st 2020</span>
                                 </div>
                             </li>
                             <li>
@@ -88,8 +87,8 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">Love began</h5>
-                                    <span className="small text-primary">October 2017</span>
+                                    <h5 className="mb-0">First 🍕 together</h5>
+                                    <span className="small text-primary">August 27th 2020</span>
                                 </div>
                             </li>
                             <li>
@@ -104,8 +103,8 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">Together since</h5>
-                                    <span className="small text-primary">February 2018</span>
+                                    <h5 className="mb-0">First 🪴 bought</h5>
+                                    <span className="small text-primary">October 10th 2020</span>
                                 </div>
                             </li>
                             <li>
@@ -120,8 +119,72 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">He proposed</h5>
-                                    <span className="small text-primary">September 2018</span>
+                                    <h5 className="mb-0">First National Park 🌲</h5>
+                                    <span className="small text-primary">December 31st 2020</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="story-icon bg-icon-primary">
+                                    <svg version="1.1" className="icon-svg" xmlns="http://www.w3.org/2000/svg"
+                                         xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 107 93" enableBackground="new 0 0 107 93"
+                                         xmlSpace="preserve">
+                                        <path fill="#E25D5D" d="M53.6825,9.4436L53.6825,9.4436C41.6532-2.4793,22.2392-2.5,10.1866,9.4439
+                                    c-12.1565,12.0471-12.07,31.7375-0.0219,43.8819l35.08,35.3601c4.5697,4.6061,12.0081,4.6357,16.6142,0.0661l35.1704-34.8918
+                                    c12.1523-12.056,12.4179-32.0464,0.3787-44.2154C85.3917-2.5013,65.8078-2.5857,53.6825,9.4436z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h5 className="mb-0">First time Hawaii 🌴</h5>
+                                    <span className="small text-primary">April 24th 2021</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="story-icon bg-icon-primary">
+                                    <svg version="1.1" className="icon-svg" xmlns="http://www.w3.org/2000/svg"
+                                         xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 107 93" enableBackground="new 0 0 107 93"
+                                         xmlSpace="preserve">
+                                        <path fill="#E25D5D" d="M53.6825,9.4436L53.6825,9.4436C41.6532-2.4793,22.2392-2.5,10.1866,9.4439
+                                    c-12.1565,12.0471-12.07,31.7375-0.0219,43.8819l35.08,35.3601c4.5697,4.6061,12.0081,4.6357,16.6142,0.0661l35.1704-34.8918
+                                    c12.1523-12.056,12.4179-32.0464,0.3787-44.2154C85.3917-2.5013,65.8078-2.5857,53.6825,9.4436z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h5 className="mb-0">Moved in together 🏡</h5>
+                                    <span className="small text-primary">July 1st 2021</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="story-icon bg-icon-primary">
+                                    <svg version="1.1" className="icon-svg" xmlns="http://www.w3.org/2000/svg"
+                                         xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 107 93" enableBackground="new 0 0 107 93"
+                                         xmlSpace="preserve">
+                                        <path fill="#E25D5D" d="M53.6825,9.4436L53.6825,9.4436C41.6532-2.4793,22.2392-2.5,10.1866,9.4439
+                                    c-12.1565,12.0471-12.07,31.7375-0.0219,43.8819l35.08,35.3601c4.5697,4.6061,12.0081,4.6357,16.6142,0.0661l35.1704-34.8918
+                                    c12.1523-12.056,12.4179-32.0464,0.3787-44.2154C85.3917-2.5013,65.8078-2.5857,53.6825,9.4436z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h5 className="mb-0">First time Austria 🇦🇹</h5>
+                                    <span className="small text-primary">December 28th 2021</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="story-icon bg-icon-primary">
+                                    <svg version="1.1" className="icon-svg" xmlns="http://www.w3.org/2000/svg"
+                                         xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 107 93" enableBackground="new 0 0 107 93"
+                                         xmlSpace="preserve">
+                                        <path fill="#E25D5D" d="M53.6825,9.4436L53.6825,9.4436C41.6532-2.4793,22.2392-2.5,10.1866,9.4439
+                                    c-12.1565,12.0471-12.07,31.7375-0.0219,43.8819l35.08,35.3601c4.5697,4.6061,12.0081,4.6357,16.6142,0.0661l35.1704-34.8918
+                                    c12.1523-12.056,12.4179-32.0464,0.3787-44.2154C85.3917-2.5013,65.8078-2.5857,53.6825,9.4436z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h5 className="mb-0">Proposed 💍</h5>
+                                    <span className="small text-primary">April 26th 2022</span>
                                 </div>
                             </li>
                         </ol>
@@ -143,15 +206,15 @@ export default function Story() {
                                         </mask>
                                     </defs>
                                     <image mask="url(#mask-small-2)" width="607" height="532"
-                                           xlinkHref="assets/img/mask-md.jpg"/>
+                                           xlinkHref="assets/img/proposal.jpg"/>
                                 </svg>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-12 text-center">
                         <div className="">
-                            <h5 className="mb-0"> Happy ending we will get married</h5>
-                            <span className="small text-dark-gray opacity-8">Counting the days...</span>
+                            <h5 className="mb-0"> When Chris proposed to Georgia</h5>
+                            <span className="small text-dark-gray opacity-8">on 4,702m | 13,803ft - Mauna Kea, HI </span>
                         </div>
                     </div>
                 </div>

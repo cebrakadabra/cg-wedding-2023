@@ -1,4 +1,5 @@
 import React from 'react';
+// import FontAwesomeIcon from
 
 export default function Hero({bg, date, address}) {
     return (
@@ -9,7 +10,7 @@ export default function Hero({bg, date, address}) {
                     <div className="col-12">
                         {/*<h1 className="display-2 text-white mb-4">{male} &amp; {female}</h1>*/}
                         <img src="/assets/img/logo/cg-white.png" alt=""/>
-                        <p className="font-weight-300 text-light  lead mb-5 ">{date} - {address} </p>
+                        <p className="font-weight-300 text-light  lead mb-5 ">{date}<br/><small>{address}</small></p>
                         <a href="#rsvp" className="btn btn-primary btn-wide-sm btn-sm  scroll">RSVP</a>
                     </div>
                 </div>
