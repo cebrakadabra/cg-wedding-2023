@@ -38,11 +38,10 @@ const Home = observer(({page}) => {
               flexDirection: 'column'
           }}>
               <img src="/assets/img/logo/cg-white.png" alt="" style={{width: '200px'}}/>
-              {/*<p style={{color: '#ffffff'}}>Pick a Location</p>*/}
           </div>
 
           <Link href="/usa">
-              <a>
+              <a className="root-selector">
                   <section className="gradient-overlay gradient-overlay-dark root-container ">
                       <img className="bg-image" src="assets/img/venues/fc-us-venue.jpg" alt=""/>
                       <div className="container">
@@ -52,7 +51,7 @@ const Home = observer(({page}) => {
               </a>
           </Link>
           <Link href="/austria">
-            <a>
+            <a className="root-selector">
               <section className="gradient-overlay gradient-overlay-dark root-container ">
                   <img className="bg-image" src="assets/img/venues/cg-at-venue.jpg" alt=""/>
                   <div className="container" style={{height: '100%'}}>
