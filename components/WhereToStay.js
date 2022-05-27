@@ -8,8 +8,7 @@ export default function WhereToStay({}) {
                     <div className="col">
                         <div className=" mb-5 pb-5 text-center">
                             <h1 className="display-4 ">Where To Stay</h1>
-                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Accommodation -
-                                information below </p>
+                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Hotels in the area</p>
                         </div>
                     </div>
                 </div>

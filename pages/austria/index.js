@@ -59,7 +59,9 @@ const Austria = observer(({page}) => {
                 />
                 <Gallery />
                 <GiftRegistry />
-                <RegistrationForm />
+                <RegistrationForm
+                    googleFormLink=""
+                />
                 <WhereToStay />
                 <Video />
                 <Footer />

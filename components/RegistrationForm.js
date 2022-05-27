@@ -1,65 +1,26 @@
 import React from 'react';
 
-export default function RegistrationForm({}) {
+export default function RegistrationForm({googleFormLink}) {
     return (
         <section id="rsvp" className="bg-secondary spacer-one-top-lg o-hidden ">
             <div className="container spacer-one-bottom-lg">
                 <div className="row justify-content-center">
                     <div className="col">
-                        <div className=" mb-5 pb-5 text-center">
+                        <div className=" mb-5 text-center">
                             <h1 className="display-4 ">Attend the Wedding</h1>
-                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8">Let us know if you are coming & about food preferences</p>
+                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8">Let us know if you are coming,<br/>food preferences & more</p>
+                            <br/>
+                            <h3>🤵🏻 💍 👰🏻</h3>
                         </div>
                     </div>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-xl-5 col-lg-5 col-md-6">
-                        <form method="post">
-                            <div className="form-group">
-                                <label>Your Name</label>
-                                <input name="name" type="text" className="form-control form-control-lg"
-                                       placeholder="Your name"/>
-                            </div>
-                            <div className="form-group">
-                                <label>Email Address</label>
-                                <input name="email" type="email" className="form-control form-control-lg"
-                                       placeholder="Your email"/>
-                            </div>
-                            <div className="row">
-                                <div className="col-12">
-                                    <div className="form-group mb-1">
-                                        <label>Attending</label>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="form-group rounded bg-white p-2 border">
-                                        <div className="custom-control custom-radio">
-                                            <input type="radio" id="atttending-yes" name="atttending"
-                                                   className="custom-control-input"/>
-                                            <label className="custom-control-label" htmlFor="atttending-yes">Yes, I
-                                                will be there</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="form-group rounded bg-white p-2 border">
-                                        <div className="custom-control custom-radio">
-                                            <input type="radio" id="atttending-no" name="atttending"
-                                                   className="custom-control-input"/>
-                                            <label className="custom-control-label" htmlFor="atttending-no">Sorry, I
-                                                can't come</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div className="form-group text-center">
-                                <button className="btn btn-lg btn-block btn-primary" type="submit">Confirm
-                                    registry
-                                </button>
+                                <a className="btn btn-lg btn-block btn-primary" href={googleFormLink} target="_blank">Register</a>
                                 <small className="mt-2 text-dark-gray opacity-8">You’ll recieve a confirmation
-                                    email.</small>
+                                    email that includes more information about the venue & more</small>
                             </div>
-                        </form>
                     </div>
                 </div>
             </div>
