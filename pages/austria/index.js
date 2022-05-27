@@ -54,6 +54,7 @@ const Austria = observer(({page}) => {
                 />
                 <Story />
                 <Events
+                    locale="at"
                     desktopAsset="assets/img/1-at.jpg"
                 />
                 <Gallery />

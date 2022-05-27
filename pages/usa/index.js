@@ -53,6 +53,7 @@ const Usa = observer(({page}) => {
                 />
                 <Story />
                 <Events
+                    locale="us"
                     desktopAsset="assets/img/1-us.jpg"
                 />
                 <Gallery />
