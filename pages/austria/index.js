@@ -50,9 +50,12 @@ const Austria = observer(({page}) => {
                             <a className="btn btn-primary btn-wide-sm btn-sm" href="https://g.page/diedeantnerin?share" target="_blank" style={{marginTop: '10px'}}>Open Directions</a>
                         </>
                     }
+                    assetImg="/assets/img/mask-lg-at.jpg"
                 />
                 <Story />
-                <Events />
+                <Events
+                    desktopAsset="assets/img/1-at.jpg"
+                />
                 <Gallery />
                 <GiftRegistry />
                 <RegistrationForm />

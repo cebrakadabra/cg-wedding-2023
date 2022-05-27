@@ -1,22 +1,21 @@
 import React from 'react';
 
-export default function Events() {
+export default function Events({desktopAsset}) {
     return (
         <section id="wedding" className="spacer-one-top-lg">
             <div className="container spacer-one-bottom-lg">
                 <div className="row justify-content-center">
                     <div className="col">
                         <div className=" text-center mb-5 pb-5">
-                            <h1 className="display-4 mb-0">Wedding Events</h1>
-                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Main ceremony -
-                                Wedding party</p>
+                            <h1 className="display-4 mb-0">Schedule</h1>
+                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">When, What & Where</p>
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-6 col-lg-4 d-flex mb-4 mb-lg-0 display-state ">
                         <div className="card card-icon-2 card-body justify-content-between">
-                            <img className="bg-image" src="assets/img/1.jpg" alt=""/>
+                            <img className="bg-image" src={desktopAsset} alt=""/>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-4 d-flex mb-4 mb-lg-0">

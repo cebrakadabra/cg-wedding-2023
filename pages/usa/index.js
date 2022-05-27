@@ -49,9 +49,12 @@ const Usa = observer(({page}) => {
                             <a className="btn btn-primary btn-wide-sm btn-sm" href="https://g.page/FlyingCaballos?share" target="_blank" style={{marginTop: '10px'}}>Open Directions</a>
                         </>
                     }
+                    assetImg="/assets/img/mask-lg.jpg"
                 />
                 <Story />
-                <Events />
+                <Events
+                    desktopAsset="assets/img/1-us.jpg"
+                />
                 <Gallery />
                 <GiftRegistry />
                 <RegistrationForm />

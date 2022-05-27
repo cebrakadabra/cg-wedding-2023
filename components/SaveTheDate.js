@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SaveTheDate({heading, date, address, text}) {
+export default function SaveTheDate({heading, date, address, text, assetImg}) {
     return (
         <section id="resto" className=" ">
             <div className="container spacer-double-sm">
@@ -47,7 +47,7 @@ export default function SaveTheDate({heading, date, address, text}) {
                                     </mask>
                                 </defs>
                                 <image mask="url(#mask)" width="981" height="885"
-                                       xlinkHref="/assets/img/mask-lg.jpg"/>
+                                       xlinkHref={assetImg} />
                                 <g>
                                     <path fill="none" stroke="#E35D5D" strokeWidth="7" strokeLinecap="round"
                                           strokeMiterlimit="10" d="M747.8805,524.349
