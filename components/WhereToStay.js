@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function WhereToStay({}) {
+export default function WhereToStay({locale}) {
     return (
         <section id="location" className=" spacer-one-top-lg ">
             <div className="container spacer-one-bottom-lg">
@@ -12,48 +12,53 @@ export default function WhereToStay({}) {
                         </div>
                     </div>
                 </div>
-                <div className="row text-center">
-                    <div className="col-md-4 mb-3 mb-md-0 ">
-                        <img src="assets/img/accommodation/1.jpg" alt="Image" className=" rounded img-fluid"/>
-                        <div className="badge-overlap">
-                            <span className="badge">Venue</span>
+                {locale === 'us' ? (
+                    <>
+                        <div className="row text-center">
+                            <div className="col-md-4 mb-3 mb-md-0 ">
+                                <img src="assets/img/accommodation/1-us.jpg" alt="Image" className=" rounded img-fluid"/>
+                                <div className="badge-overlap">
+                                    <span className="badge">Hotel</span>
+                                </div>
+                                <h5 className="mt-3 mb-3">Hotel Cerro </h5>
+                                <p>1125 Garden Street<br/>San Luis Obispo, 93401, California</p>
+                                <a href="https://www.google.com/maps/place/1125+Garden+St,+San+Luis+Obispo,+CA+93401/@35.2789862,-120.6654377,17z/data=!3m1!4b1!4m5!3m4!1s0x80ecf102fe765859:0xcb1254ba10d7c502!8m2!3d35.2789818!4d-120.663249" target="_blank" className="hover-arrow">Get directions
+                                    <span className="fa fa-arrow-right"/>
+                                </a>
+                            </div>
+                            <div className="col-md-4 mb-3 mb-md-0 ">
+                                <img src="assets/img/accommodation/2-us.jpg" alt="" className="rounded img-fluid"/>
+                                <div className="badge-overlap">
+                                    <span className="badge">Hotel</span>
+                                </div>
+                                <h5 className="mt-3 mb-3">Hotel & Bistro Granada</h5>
+                                <p>1130 Morro Street
+                                    <br/>San Luis Obispo, 93401, California
+                                </p>
+                                <a href="https://g.page/granadahotelandbistro?share" target="_blank" className="hover-arrow">Get directions
+                                    <span className="fa fa-arrow-right"/>
+                                </a>
+                            </div>
+                            <div className="col-md-4 mb-3 mb-md-0 ">
+                                <img src="assets/img/accommodation/3-us.jpg" alt="" className="rounded img-fluid"/>
+                                <div className="badge-overlap ">
+                                    <span className="badge">Hotel</span>
+                                </div>
+                                <h5 className="mt-3 mb-3">Inn at the Pier</h5>
+                                <p>601 Cypress St,
+                                    <br/>Pismo Beach, 93449, California
+                                </p>
+                                <a href="https://goo.gl/maps/K1revMxe1PcjkGdp6" target="_blank" className="hover-arrow">Get directions
+                                    <span className="fa fa-arrow-right" />
+                                </a>
+                            </div>
                         </div>
-                        <h5 className="mt-3 mb-3">Hôtel Monaco </h5>
-                        <p>501 Geary Street
-                            <br/>San Franciscio, California
-                            <br/>(415) 292 - 0100
-                        </p>
-                        <a href="#" className="hover-arrow">Get directions <span
-                            className="fa fa-arrow-right"></span></a>
-                    </div>
-                    <div className="col-md-4 mb-3 mb-md-0 ">
-                        <img src="assets/img/accommodation/2.jpg" alt="" className="rounded img-fluid"/>
-                        <div className="badge-overlap">
-                            <span className="badge">Accommodation</span>
-                        </div>
-                        <h5 className="mt-3 mb-3">Villa Nikko</h5>
-                        <p>222 Mason Street
-                            <br/>San Franciscio, California
-                            <br/>(415) 394 - 1111
-                        </p>
-                        <a href="#" className="hover-arrow">Get directions <span
-                            className="fa fa-arrow-right"></span></a>
-                    </div>
-                    <div className="col-md-4 mb-3 mb-md-0 ">
-                        <img src="assets/img/accommodation/3.jpg" alt="" className="rounded img-fluid"/>
-                        <div className="badge-overlap ">
-                            <span className="badge">After Party</span>
-                        </div>
-                        <h5 className="mt-3 mb-3">California Party</h5>
-                        <p>670 Ocean Ave
-                            <br/>Santa Monica
-                            <br/>(415) 394 - 1111
-                        </p>
-                        <a href="#" className="hover-arrow">Get directions <span
-                            className="fa fa-arrow-right"></span>
-                        </a>
-                    </div>
-                </div>
+                    </>
+                ) : locale === 'at' ? (
+                    <>
+
+                    </>
+                ) : null}
             </div>
         </section>
     )

@@ -61,7 +61,7 @@ const Usa = observer(({page}) => {
                 <RegistrationForm
                     googleFormLink=""
                 />
-                <WhereToStay />
+                <WhereToStay locale="us" />
                 <Video />
                 <Footer />
                 <a className="scroll-to-top scroll" href="#wrapper">

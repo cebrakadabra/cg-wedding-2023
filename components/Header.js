@@ -25,7 +25,7 @@ export default function Header({}) {
                                 {/*<li><a className=" nav-link scroll" href="#gift">Gift Registry</a></li>*/}
                                 {/*<li><a className=" nav-link scroll" href="#friends">Friends</a></li>*/}
                                 <li><a className=" nav-link scroll" href="#rsvp">Rsvp</a></li>
-                                <li><a className=" nav-link scroll" href="#location">Location</a></li>
+                                <li><a className=" nav-link scroll" href="#location">Hotels</a></li>
                                 <br/>
                             </ul>
                         </div>

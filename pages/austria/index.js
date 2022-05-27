@@ -62,7 +62,7 @@ const Austria = observer(({page}) => {
                 <RegistrationForm
                     googleFormLink=""
                 />
-                <WhereToStay />
+                <WhereToStay locale="at" />
                 <Video />
                 <Footer />
                 <a className="scroll-to-top scroll" href="#wrapper">
