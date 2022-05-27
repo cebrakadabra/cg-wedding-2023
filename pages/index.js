@@ -41,26 +41,27 @@ const Home = observer(({page}) => {
               {/*<p style={{color: '#ffffff'}}>Pick a Location</p>*/}
           </div>
 
-          <section className="gradient-overlay gradient-overlay-dark ">
-              <img className="bg-image" src="assets/img/venues/fc-us-venue.jpg" alt=""/>
-              <div className="container" style={{minHeight: '50vh'}}>
-                  <div className="row min-vh-80 align-items-center z-index-2 position-relative text-center">
-                      <div className="col-12">
-                          <Link href="/usa"><a className="btn btn-primary btn-wide-md btn-md">Destination USA</a></Link>
+          <Link href="/usa">
+              <a>
+                  <section className="gradient-overlay gradient-overlay-dark root-container ">
+                      <img className="bg-image" src="assets/img/venues/fc-us-venue.jpg" alt=""/>
+                      <div className="container">
+                          <h1 style={{color: 'rgba(255,255,255,0.4)', position: 'absolute', zIndex: 2, bottom: 0, left: '10px', fontSize: '5rem'}}><strong>USA</strong></h1>
                       </div>
+                  </section>
+              </a>
+          </Link>
+          <Link href="/austria">
+            <a>
+              <section className="gradient-overlay gradient-overlay-dark root-container ">
+                  <img className="bg-image" src="assets/img/venues/cg-at-venue.jpg" alt=""/>
+                  <div className="container" style={{height: '100%'}}>
+                      <h1 style={{color: 'rgba(255,255,255,0.4)', position: 'absolute', zIndex: 2, bottom: 0, right: '10px', fontSize: '5rem'}}><strong>AUSTRIA</strong></h1>
+
                   </div>
-              </div>
-          </section>
-          <section className="gradient-overlay gradient-overlay-dark ">
-              <img className="bg-image" src="assets/img/venues/cg-at-venue.jpg" alt=""/>
-              <div className="container" style={{minHeight: '50vh'}}>
-                  <div className="row min-vh-80 align-items-center z-index-2 position-relative text-center">
-                      <div className="col-12">
-                          <Link href="/austria"><a className="btn btn-primary btn-wide-md btn-md">Destination Austria</a></Link>
-                      </div>
-                  </div>
-              </div>
-          </section>
+              </section>
+            </a>
+          </Link>
       </main>
     </div>
   )

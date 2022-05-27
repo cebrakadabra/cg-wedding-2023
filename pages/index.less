@@ -121,3 +121,20 @@
         flex-direction: column;
     }
 }
+
+.main-root {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 991px) {
+        flex-direction: row;
+    }
+
+    .container {
+        min-height: 50vh;
+
+        @media (min-width: 991px) {
+            min-height: 100vh;
+        }
+    }
+}
