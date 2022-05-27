@@ -8,9 +8,8 @@ export default function Hero({bg, date, address}) {
             <div className="container" style={{minHeight: '50vh'}}>
                 <div className="row min-vh-80 align-items-center z-index-2 position-relative text-center">
                     <div className="col-12">
-                        {/*<h1 className="display-2 text-white mb-4">{male} &amp; {female}</h1>*/}
-                        <img src="/assets/img/logo/cg-white.png" alt=""/>
-                        <p className="font-weight-300 text-light  lead mb-5 ">{date}<br/><small>{address}</small></p>
+                        <img src="/assets/img/logo/cg-white.png" alt="" style={{width: '360px'}}/>
+                        <p className="font-weight-300 lead mb-5 " style={{color: '#ffffff'}}>🤵🏻 💍 👰🏻<br/>{date}<br/><small style={{fontSize: '14px'}}>{address}</small></p>
                         <a href="#rsvp" className="btn btn-primary btn-wide-md btn-md  scroll">&nbsp;&nbsp;&nbsp;RSVP&nbsp;&nbsp;&nbsp;</a>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ export default function SaveTheDate({heading, date, address, text}) {
                             <h1 className="font-secondary display-4">{heading}</h1>
                             <p className="lead font-weight-300 text-dark-gray opacity-8">
                                 {date}<br/>
-                                <small>📍 {address}</small></p>
+                                <small style={{fontSize: '14px'}}>📍 {address}</small></p>
                             <p className="mb-4 pr-5">{text}</p>
                             <div className="countdown row text-center"/>
                         </div>

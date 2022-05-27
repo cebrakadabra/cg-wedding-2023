@@ -46,8 +46,8 @@ const Austria = observer(({page}) => {
                     text={
                         <>
                             <p>Real & authentic, modern & classic, modest & uncomplicated -  that is our wedding venue. Arrive, switch off and simply enjoy being there - Come celebrate with us and enjoy the gigantic view of the Austrian Alps.</p>
-                            <a className="btn btn-primary btn-wide-sm btn-sm" href="https://www.deantnerin.at/de/das.bilderbuch" target="_blank">Venue Website</a> &nbsp;&nbsp;&nbsp;
-                            <a className="btn btn-primary btn-wide-sm btn-sm" href="https://g.page/diedeantnerin?share" target="_blank">Open Directions</a>
+                            <a className="btn btn-primary btn-wide-sm btn-sm" href="https://www.deantnerin.at/de/das.bilderbuch" target="_blank" style={{marginTop: '10px'}}>Venue Website</a> &nbsp;&nbsp;&nbsp;
+                            <a className="btn btn-primary btn-wide-sm btn-sm" href="https://g.page/diedeantnerin?share" target="_blank" style={{marginTop: '10px'}}>Open Directions</a>
                         </>
                     }
                 />
