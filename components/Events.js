@@ -9,7 +9,7 @@ export default function Events({locale, desktopAsset}) {
                     <div className="col">
                         <div className=" text-center mb-5 pb-5">
                             <h1 className="display-4 mb-0">Schedule</h1>
-                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">When, What & Where</p>
+                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">What, When & Where</p>
                         </div>
                     </div>
                 </div>

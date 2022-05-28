@@ -60,7 +60,7 @@ const Austria = observer(({page}) => {
                 <Gallery />
                 <GiftRegistry />
                 <RegistrationForm
-                    googleFormLink=""
+                    googleFormLink="https://forms.gle/ACYgmFiAtYHZBws26"
                 />
                 <WhereToStay locale="at" />
                 <Video />

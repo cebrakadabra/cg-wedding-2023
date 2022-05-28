@@ -38,6 +38,7 @@ const Home = observer(({page}) => {
               flexDirection: 'column'
           }}>
               <img src="/assets/img/logo/cg-white.png" alt="" style={{width: '200px'}}/>
+              <p style={{marginTop: '-40px', fontSize: '12px', color: 'rgba(255,255,255,0.65)'}}>Select A Location</p>
           </div>
 
           <Link href="/usa">

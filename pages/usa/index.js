@@ -59,7 +59,7 @@ const Usa = observer(({page}) => {
                 <Gallery />
                 <GiftRegistry />
                 <RegistrationForm
-                    googleFormLink=""
+                    googleFormLink="https://forms.gle/qfjtHXTMckXGAFzG9"
                 />
                 <WhereToStay locale="us" />
                 <Video />
