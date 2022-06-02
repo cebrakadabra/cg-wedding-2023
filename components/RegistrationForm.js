@@ -1,6 +1,9 @@
 import React from 'react';
 
 export default function RegistrationForm({googleFormLink}) {
+    const enableYear = 2023;
+    const currentYear = new Date().getFullYear();
+
     return (
         <section id="rsvp" className="bg-secondary spacer-one-top-lg o-hidden ">
             <div className="container spacer-one-bottom-lg">
@@ -17,9 +20,18 @@ export default function RegistrationForm({googleFormLink}) {
                 <div className="row justify-content-center">
                     <div className="col-xl-5 col-lg-5 col-md-6">
                             <div className="form-group text-center">
-                                <a className="btn btn-lg btn-block btn-primary" href={googleFormLink} target="_blank">Register</a>
-                                <small className="mt-2 text-dark-gray opacity-8">You’ll recieve a confirmation
-                                    email that includes more information about the venue & more</small>
+                                {currentYear >= enableYear ? (
+                                    <>
+                                        <a className="btn btn-lg btn-block btn-primary"
+                                           href={googleFormLink}
+                                           target="_blank"
+                                        >Register</a>
+                                        <small className="mt-2 text-dark-gray opacity-8">You’ll recieve a confirmation
+                                            email that includes more information about the venue & more</small>
+                                    </>
+                                ) : (
+                                    <p><em><br/>Please RSVP once you receive your<br/>invitation in early 2023</em></p>
+                                )}
                             </div>
                     </div>
                 </div>
