@@ -44,7 +44,7 @@ const Usa = observer(({page}) => {
                     address="1150 Farmhouse Ln, San Luis Obispo, CA 93401"
                     text={
                         <>
-                            <p>The Flying Caballos Ranch is located in the rolling hills of Edna Valley Wine Country, less than 5 minutes from downtown San Luis Obispo. The picturesque central coast property combines old world artistry with modern amenities and is an entirely new genre of accommodation.</p>
+                            <p>The Flying Caballos Ranch combines old world artistry with modern amenities & is located in the rolling hills of Edna Valley Wine Country - A place to gather with family, friends & create life long memories by celebrating our wedding.</p>
                             <a className="btn btn-primary btn-wide-sm btn-sm" href="http://flyingcaballos.com/" target="_blank" style={{marginTop: '10px'}}>Venue Website</a> &nbsp;&nbsp;&nbsp;
                             <a className="btn btn-primary btn-wide-sm btn-sm" href="https://g.page/FlyingCaballos?share" target="_blank" style={{marginTop: '10px'}}>Open Directions</a>
                         </>

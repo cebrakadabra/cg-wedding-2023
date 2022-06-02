@@ -55,7 +55,7 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">First Glass Of 🍷</h5>
+                                    <h5 className="mb-0">First glass<br/>of 🍷</h5>
                                     <span className="small text-primary">4th July 2020</span>
                                 </div>
                             </li>
@@ -71,7 +71,7 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">First Beach Sunset 🏝️</h5>
+                                    <h5 className="mb-0">First beach<br/>sunset 🏝️</h5>
                                     <span className="small text-primary">July 31st 2020</span>
                                 </div>
                             </li>
@@ -87,7 +87,7 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">First 🍕 together</h5>
+                                    <h5 className="mb-0">First 🍕<br/>together</h5>
                                     <span className="small text-primary">August 27th 2020</span>
                                 </div>
                             </li>
@@ -103,7 +103,7 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">First 🪴 bought</h5>
+                                    <h5 className="mb-0">First 🪴<br/>bought</h5>
                                     <span className="small text-primary">October 10th 2020</span>
                                 </div>
                             </li>
@@ -119,7 +119,7 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">First National Park 🌲</h5>
+                                    <h5 className="mb-0">First National<br/>Park 🌲</h5>
                                     <span className="small text-primary">December 31st 2020</span>
                                 </div>
                             </li>
@@ -135,7 +135,7 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">First time Hawaii 🌴</h5>
+                                    <h5 className="mb-0">First time<br/>Hawaii 🌴</h5>
                                     <span className="small text-primary">April 24th 2021</span>
                                 </div>
                             </li>
@@ -151,7 +151,7 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">Moved in together 🏡</h5>
+                                    <h5 className="mb-0">Moved in<br/>together 🏡</h5>
                                     <span className="small text-primary">July 1st 2021</span>
                                 </div>
                             </li>
@@ -167,7 +167,7 @@ export default function Story() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">First time Austria 🇦🇹</h5>
+                                    <h5 className="mb-0">First time<br/>Austria 🇦🇹</h5>
                                     <span className="small text-primary">December 28th 2021</span>
                                 </div>
                             </li>
