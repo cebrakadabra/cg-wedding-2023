@@ -36,7 +36,7 @@ const Usa = observer(({page}) => {
                 <Hero
                     bg="/assets/img/venues/fc-us-venue.jpg"
                     date="20th May 2023"
-                    address="Flying Caballos, USA"
+                    address={<>Flying Caballos Ranch <br/>San Luis Obispo, CA</>}
                 />
                 <SaveTheDate
                     heading="Save The Date"

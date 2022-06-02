@@ -37,7 +37,7 @@ const Austria = observer(({page}) => {
                 <Hero
                     bg="/assets/img/venues/cg-at-venue.jpg"
                     date="14th July 2023"
-                    address="Die Deantnerin, Austria"
+                    address={<>Die Deantnerin <br/>Dienten am Hochkönig, Austria</>}
                 />
                 <SaveTheDate
                     heading="Save The Date"
