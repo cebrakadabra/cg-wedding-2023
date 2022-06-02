@@ -56,7 +56,7 @@ export default function Story() {
                                 </div>
                                 <div>
                                     <h5 className="mb-0">First glass<br/>of 🍷</h5>
-                                    <span className="small text-primary">4th July 2020</span>
+                                    <span className="small text-primary">4th July<br/>2020</span>
                                 </div>
                             </li>
                             <li>
@@ -72,7 +72,7 @@ export default function Story() {
                                 </div>
                                 <div>
                                     <h5 className="mb-0">First beach<br/>sunset 🏝️</h5>
-                                    <span className="small text-primary">July 31st 2020</span>
+                                    <span className="small text-primary">July 31st<br/>2020</span>
                                 </div>
                             </li>
                             <li>
@@ -88,7 +88,7 @@ export default function Story() {
                                 </div>
                                 <div>
                                     <h5 className="mb-0">First 🍕<br/>together</h5>
-                                    <span className="small text-primary">August 27th 2020</span>
+                                    <span className="small text-primary">August 27th<br/>2020</span>
                                 </div>
                             </li>
                             <li>
@@ -104,7 +104,7 @@ export default function Story() {
                                 </div>
                                 <div>
                                     <h5 className="mb-0">First 🪴<br/>bought</h5>
-                                    <span className="small text-primary">October 10th 2020</span>
+                                    <span className="small text-primary">October 10th<br/>2020</span>
                                 </div>
                             </li>
                             <li>
@@ -120,7 +120,7 @@ export default function Story() {
                                 </div>
                                 <div>
                                     <h5 className="mb-0">First National<br/>Park 🌲</h5>
-                                    <span className="small text-primary">December 31st 2020</span>
+                                    <span className="small text-primary">December 31st<br/>2020</span>
                                 </div>
                             </li>
                             <li>
@@ -136,7 +136,7 @@ export default function Story() {
                                 </div>
                                 <div>
                                     <h5 className="mb-0">First time<br/>Hawaii 🌴</h5>
-                                    <span className="small text-primary">April 24th 2021</span>
+                                    <span className="small text-primary">April 24th<br/>2021</span>
                                 </div>
                             </li>
                             <li>
@@ -152,7 +152,7 @@ export default function Story() {
                                 </div>
                                 <div>
                                     <h5 className="mb-0">Moved in<br/>together 🏡</h5>
-                                    <span className="small text-primary">July 1st 2021</span>
+                                    <span className="small text-primary">July 1st<br/>2021</span>
                                 </div>
                             </li>
                             <li>
@@ -168,7 +168,7 @@ export default function Story() {
                                 </div>
                                 <div>
                                     <h5 className="mb-0">First time<br/>Austria 🇦🇹</h5>
-                                    <span className="small text-primary">December 28th 2021</span>
+                                    <span className="small text-primary">December 28th<br/>2021</span>
                                 </div>
                             </li>
                             <li>
@@ -184,7 +184,7 @@ export default function Story() {
                                 </div>
                                 <div>
                                     <h5 className="mb-0">Proposed 💍</h5>
-                                    <span className="small text-primary">April 26th 2022</span>
+                                    <span className="small text-primary">April 26th<br/>2022</span>
                                 </div>
                             </li>
                         </ol>
