@@ -11,7 +11,7 @@ export default function SaveTheDate({heading, date, address, text, assetImg}) {
                             <p className="lead font-weight-300 text-dark-gray opacity-8">
                                 {date}<br/>
                                 <small style={{fontSize: '14px'}}>📍 {address}</small></p>
-                            <p className="mb-4 pr-5">{text}</p>
+                            <div className="mb-4 pr-5">{text}</div>
                             <div className="countdown row text-center"/>
                         </div>
                     </div>

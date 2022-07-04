@@ -105,6 +105,7 @@ const nextConfig = {
         // will only be available on the clientside
     },
     poweredByHeader: false,
+    reactStrictMode: false,
 }
 
 module.exports = withPlugins([withAntdLess, withImages], nextConfig);
