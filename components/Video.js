@@ -1,6 +1,7 @@
 import React from 'react';
 import dynamic from 'next/dynamic'
 const Stories = dynamic(() => import('react-insta-stories'), { ssr: false });
+import { isMobile } from 'react-device-detect'
 require('./Video.less');
 
 export default function Video({}) {
@@ -16,12 +17,12 @@ export default function Video({}) {
             }
         },
         {
-            url: "/assets/vid/GC2020.MP4",
+            url: "/assets/vid/2021/MAHI_2021.mp4",
             type: "video",
-            duration: 41000,
+            duration: 140000,
             header: {
                 heading: "2021",
-                subheading: "...",
+                subheading: "Maui, Hawaii",
                 profileImage: ""
             }
         },
@@ -42,8 +43,8 @@ export default function Video({}) {
             <Stories
                 stories={stories}
                 defaultInterval={1500}
-                width="100%"
-                height="100%"
+                width={isMobile ? "100%" : "337.5px"}
+                height={isMobile ? "100%" : "600px"}
             />
       {/*      <img className="bg-image" src="assets/img/2.jpg" alt=""/>*/}
       {/*      <div className="container">*/}
