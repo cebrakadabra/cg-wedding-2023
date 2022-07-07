@@ -41,14 +41,14 @@ export default function Video({}) {
     return (
         <>
             <section id="location" className=" spacer-one-top-lg ">
-            <div className="row justify-content-center">
-                <div className="col">
-                    <div className=" mb-5 pb-5 text-center">
-                        <h1 className="display-4 ">Over The Years</h1>
-                        <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Watch Chris & Georgia <br/>explore the US over the years</p>
+                <div className="justify-content-center">
+                    <div className="col">
+                        <div className=" mb-5 pb-5 text-center">
+                            <h1 className="display-4 ">Over The Years</h1>
+                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Watch Chris & Georgia <br/>explore the US over the years</p>
+                        </div>
                     </div>
                 </div>
-            </div>
             </section>
             <section className="gradient-overlay align-middle">
                 <Stories
