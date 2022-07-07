@@ -8,7 +8,9 @@ export default function WhereToStay({locale}) {
                     <div className="col">
                         <div className=" mb-5 pb-5 text-center">
                             <h1 className="display-4 ">Where To Stay</h1>
-                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Hotels in the area</p>
+                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">A Shuttle will be available from these hotels to and from the venue for a small fee</p>
+                            <br/>
+                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">We will try to organize hotel blocks</p>
                         </div>
                     </div>
                 </div>
@@ -16,47 +18,91 @@ export default function WhereToStay({locale}) {
                     <>
                         <div className="row text-center">
                             <div className="col-md-4 mb-3 mb-md-0 ">
-                                <img src="assets/img/accommodation/1-us.jpg" alt="Image" className=" rounded img-fluid"/>
+                                <img src="assets/img/accommodation/1-us.webp" alt="Image" className=" rounded img-fluid"/>
                                 <div className="badge-overlap">
                                     <span className="badge">Hotel</span>
                                 </div>
-                                <h5 className="mt-3 mb-3">Hotel Cerro </h5>
-                                <p>1125 Garden Street<br/>San Luis Obispo, 93401, California</p>
-                                <a href="https://www.google.com/maps/place/1125+Garden+St,+San+Luis+Obispo,+CA+93401/@35.2789862,-120.6654377,17z/data=!3m1!4b1!4m5!3m4!1s0x80ecf102fe765859:0xcb1254ba10d7c502!8m2!3d35.2789818!4d-120.663249" target="_blank" className="hover-arrow">Get directions
+                                <h5 className="mt-3 mb-3">La Quinta Inn & Suites</h5>
+                                <p>1845 Monterey St,<br/>San Luis Obispo, CA 93401</p>
+                                <a href="https://goo.gl/maps/rUoogFLEX5zRCR6M7" target="_blank" className="hover-arrow">Open Map
                                     <span className="fa fa-arrow-right"/>
                                 </a>
+                                <br/>
+                                <br/>
                             </div>
                             <div className="col-md-4 mb-3 mb-md-0 ">
-                                <img src="assets/img/accommodation/2-us.jpg" alt="" className="rounded img-fluid"/>
+                                <img src="assets/img/accommodation/2-us.jpeg" alt="" className="rounded img-fluid"/>
                                 <div className="badge-overlap">
                                     <span className="badge">Hotel</span>
                                 </div>
-                                <h5 className="mt-3 mb-3">Hotel & Bistro Granada</h5>
-                                <p>1130 Morro Street
-                                    <br/>San Luis Obispo, 93401, California
+                                <h5 className="mt-3 mb-3">The Kinney</h5>
+                                <p>1800 Monterey St,<br/>San Luis Obispo, CA 93401
                                 </p>
-                                <a href="https://g.page/granadahotelandbistro?share" target="_blank" className="hover-arrow">Get directions
+                                <a href="https://goo.gl/maps/XdsBfQy1Tq6fd2ua7" target="_blank" className="hover-arrow">Open Map
                                     <span className="fa fa-arrow-right"/>
                                 </a>
+                                <br/>
+                                <br/>
                             </div>
                             <div className="col-md-4 mb-3 mb-md-0 ">
-                                <img src="assets/img/accommodation/3-us.jpg" alt="" className="rounded img-fluid"/>
+                                <img src="assets/img/accommodation/3-us.jpeg" alt="" className="rounded img-fluid"/>
                                 <div className="badge-overlap ">
                                     <span className="badge">Hotel</span>
                                 </div>
-                                <h5 className="mt-3 mb-3">Inn at the Pier</h5>
-                                <p>601 Cypress St,
-                                    <br/>Pismo Beach, 93449, California
+                                <h5 className="mt-3 mb-3">La Cuesta Inn</h5>
+                                <p>2074 Monterey St,<br/>San Luis Obispo, CA 93401
                                 </p>
-                                <a href="https://goo.gl/maps/K1revMxe1PcjkGdp6" target="_blank" className="hover-arrow">Get directions
+                                <a href="https://goo.gl/maps/zfatiD3SbDgXgWP97" target="_blank" className="hover-arrow">Open Map
                                     <span className="fa fa-arrow-right" />
                                 </a>
+                                <br/>
+                                <br/>
                             </div>
                         </div>
                     </>
                 ) : locale === 'at' ? (
                     <>
-
+                        <div className="row text-center">
+                            <div className="col-md-4 mb-3 mb-md-0 ">
+                                <img src="assets/img/accommodation/1-at.jpeg" alt="" className="rounded img-fluid"/>
+                                <div className="badge-overlap ">
+                                    <span className="badge">Hotel</span>
+                                </div>
+                                <h5 className="mt-3 mb-3">Hotel-Gasthof Salzburger Hof</h5>
+                                <p>Dorf 6, <br/>Dienten am Hochkönig, Austria</p>
+                                <a href="https://goo.gl/maps/zfatiD3SbDgXgWP97" target="_blank" className="hover-arrow">Open Map
+                                    <span className="fa fa-arrow-right" />
+                                </a>
+                                <br/>
+                                <br/>
+                            </div>
+                            <div className="col-md-4 mb-3 mb-md-0 ">
+                                <img src="assets/img/accommodation/2-at.jpeg" alt="" className="rounded img-fluid"/>
+                                <div className="badge-overlap ">
+                                    <span className="badge">Hotel</span>
+                                </div>
+                                <h5 className="mt-3 mb-3">Hotel Eder</h5>
+                                <p>Am Dorfpl. 5, <br/> Maria Alm, Austria</p>
+                                <a href="https://goo.gl/maps/mgH3Ma1c7byFJnVM8" target="_blank" className="hover-arrow">Open Map
+                                    <span className="fa fa-arrow-right" />
+                                </a>
+                                <br/>
+                                <br/>
+                            </div>
+                            <div className="col-md-4 mb-3 mb-md-0 ">
+                                <img src="assets/img/accommodation/3-at.jpeg" alt="" className="rounded img-fluid"/>
+                                <div className="badge-overlap ">
+                                    <span className="badge">Hotel</span>
+                                </div>
+                                <h5 className="mt-3 mb-3">Hotel SEPP</h5>
+                                <p>Urchen 8, <br/> Maria Alm, Austria</p>
+                                <a href="https://goo.gl/maps/dU1R1Svz2xauLtAr8" target="_blank" className="hover-arrow">Open Map
+                                    <span className="fa fa-arrow-right" />
+                                </a>
+                                <br/>
+                                <br/>
+                            </div>
+                        </div>
                     </>
                 ) : null}
             </div>
