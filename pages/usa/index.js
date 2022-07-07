@@ -1,11 +1,10 @@
 import React from 'react';
 import {observer} from 'mobx-react-lite';
 import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
 
 import {StoreContext} from '../../store';
 import {getLayout} from "../../components/Layout";
+
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import SaveTheDate from "../../components/SaveTheDate";
@@ -34,9 +33,11 @@ const Usa = observer(({page}) => {
             <div className="wrapper">
                 <Header />
                 <Hero
+                    enableYear={store.enableYear}
+                    currentYear={store.currentYear}
                     bg="/assets/img/venues/fc-us-venue.jpg"
                     date="20th May 2023"
-                    address={<>Flying Caballos Ranch <br/>San Luis Obispo, CA</>}
+                    address={<>Flying Caballos Ranch <br/>San Luis Obispo, California</>}
                 />
                 <SaveTheDate
                     heading="Save The Date"
@@ -45,23 +46,29 @@ const Usa = observer(({page}) => {
                     text={
                         <>
                             <p>The Flying Caballos Ranch combines old world artistry with modern amenities & is located in the rolling hills of Edna Valley Wine Country - A place to gather with family, friends & create life long memories by celebrating our wedding.</p>
+                            <p>We look forward to seeing you - more information will be available on this website in early 2023. For any current questions contact us via email at: <a
+                                href="mailto:contact@chrisandgeorgia.wedding" className="email-link">contact@chrisandgeorgia.wedding</a></p>
                             <a className="btn btn-primary btn-wide-sm btn-sm" href="http://flyingcaballos.com/" target="_blank" style={{marginTop: '10px'}}>Venue Website</a> &nbsp;&nbsp;&nbsp;
-                            <a className="btn btn-primary btn-wide-sm btn-sm" href="https://g.page/FlyingCaballos?share" target="_blank" style={{marginTop: '10px'}}>Open Directions</a>
+                            <a className="btn btn-primary btn-wide-sm btn-sm" href="https://g.page/FlyingCaballos?share" target="_blank" style={{marginTop: '10px'}}>Open Map</a>
                         </>
                     }
                     assetImg="/assets/img/mask-lg.jpg"
                 />
-                <Story />
                 <Events
+                    enableYear={store.enableYear}
+                    currentYear={store.currentYear}
                     locale="us"
                     desktopAsset="assets/img/1-us.jpg"
                 />
-                <Gallery />
-                <GiftRegistry />
                 <RegistrationForm
+                    enableYear={store.enableYear}
+                    currentYear={store.currentYear}
                     googleFormLink="https://forms.gle/qfjtHXTMckXGAFzG9"
                 />
+                <Gallery />
+                <GiftRegistry />
                 <WhereToStay locale="us" />
+                <Story />
                 <Video />
                 <Footer />
                 <a className="scroll-to-top scroll" href="#wrapper">

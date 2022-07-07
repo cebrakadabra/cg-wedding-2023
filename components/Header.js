@@ -19,13 +19,13 @@ export default function Header({}) {
                             <ul className=" navbar-nav  header-navbar-nav">
                                 <img className="logo-dark" src="/assets/img/logo/cg-black.png" alt="" style={{width: '150px', marginLeft: '-15px', marginTop: '5px'}}/>
                                 <li><a className=" nav-link scroll" href="#resto">Date</a></li>
-                                <li><a className=" nav-link scroll" href="#story">Love Story</a></li>
                                 <li><a className=" nav-link scroll" href="#wedding">Wedding</a></li>
-                                <li><a className=" nav-link scroll" href="#gallery">Gallery</a></li>
+                                {/*<li><a className=" nav-link scroll" href="#gallery">Gallery</a></li>*/}
                                 {/*<li><a className=" nav-link scroll" href="#gift">Gift Registry</a></li>*/}
                                 {/*<li><a className=" nav-link scroll" href="#friends">Friends</a></li>*/}
                                 <li><a className=" nav-link scroll" href="#rsvp">Rsvp</a></li>
                                 <li><a className=" nav-link scroll" href="#location">Hotels</a></li>
+                                <li><a className=" nav-link scroll" href="#story">Love Story</a></li>
                                 <br/>
                             </ul>
                         </div>

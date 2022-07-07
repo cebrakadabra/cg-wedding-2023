@@ -56,7 +56,7 @@ export default function Story() {
                                 </div>
                                 <div>
                                     <h5 className="mb-0">First glass<br/>of 🍷</h5>
-                                    <span className="small text-primary">4th July<br/>2020</span>
+                                    <span className="small text-primary">July 4th<br/>2020</span>
                                 </div>
                             </li>
                             <li>

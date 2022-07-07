@@ -58,19 +58,6 @@ export default function SaveTheDate({heading, date, address, text, assetImg}) {
                     </div>
                 </div>
             </div>
-            <div className="curved-decoration">
-                <svg width="100%" height="100%" className="bg-secondary-svg" version="1.1"
-                     xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px"
-                     y="0px"
-                     viewBox="0 0 2560 168.6227" enableBackground="new 0 0 2560 168.6227" xmlSpace="preserve">
-                    <g>
-                    </g>
-                    <g>
-                        <path d="M0,0c0,0,219.6543,165.951,730.788,124.0771c383.3156-31.4028,827.2139-96.9514,1244.7139-96.9514
-      c212.5106,0,438.9999,3.5,584.4982,1.5844v139.9126H0V0z"/>
-                    </g>
-                </svg>
-            </div>
         </section>
     )
 }

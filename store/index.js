@@ -22,7 +22,9 @@ function initializeData(initialData = store || {}) {
         something: null,
         doSomething: (str) => {
             store.something = str;
-        }
+        },
+        currentYear: new Date().getFullYear(),
+        enableYear: 2023,
     }
 }
 

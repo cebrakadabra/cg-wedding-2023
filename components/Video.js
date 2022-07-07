@@ -11,8 +11,8 @@ export default function Video({}) {
             type: "video",
             duration: 41000,
             header: {
-                heading: "2020",
-                subheading: "Grand Canyon & Joshua Tree",
+                heading: "Grand Canyon & Joshua Tree",
+                subheading: "2020",
                 profileImage: ""
             }
         },
@@ -21,26 +21,27 @@ export default function Video({}) {
             type: "video",
             duration: 140000,
             header: {
-                heading: "2021",
-                subheading: "Maui, Hawaii",
+                heading: "Maui, Hawaii",
+                subheading: "2021",
                 profileImage: ""
             }
         },
-        {
-            url: "/assets/vid/2020/GC2020_2.mp4",
-            type: "video",
-            duration: 41000,
-            header: {
-                heading: "2022",
-                subheading: "...",
-                profileImage: ""
-            }
-        },
+        // {
+        //     url: "/assets/vid/2020/GC2020_2.mp4",
+        //     type: "video",
+        //     duration: 41000,
+        //     header: {
+        //         heading: "2022",
+        //         subheading: "...",
+        //         profileImage: ""
+        //     }
+        // },
     ]
 
     return (
         <section className="gradient-overlay align-middle">
             <Stories
+                loop
                 stories={stories}
                 defaultInterval={1500}
                 width={isMobile ? "100%" : "337.5px"}

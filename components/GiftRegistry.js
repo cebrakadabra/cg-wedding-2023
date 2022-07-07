@@ -7,11 +7,10 @@ export default function GiftRegistry({}) {
                 <div className="row justify-content-between z-index-3 position-relative align-items-center">
                     <div className="col-md-6 mb-3 mb-md-0">
                         <h1 className="display-4 text-white">Gift Registry</h1>
-                        <p className="lead text-white mb-0">.... text ... </p>
+                        {/*<p className="lead text-white mb-0">Details to follow</p>*/}
                     </div>
                     <div className="col-md-5">
-                        <small className="text-uppercase mb-5 font-weight-600 text-light upper-letter-space">Where
-                            to Register</small>
+                        <small className="text-uppercase mb-5 font-weight-600 text-light upper-letter-space">Details to follow</small>
                     </div>
                 </div>
             </div>

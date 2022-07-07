@@ -1,7 +1,8 @@
 import React from 'react';
+
 require('./Events.less');
 
-export default function Events({locale, desktopAsset}) {
+export default function Events({locale, desktopAsset, enableYear, currentYear}) {
     return (
         <section id="wedding" className="spacer-one-top-lg">
             <div className="container spacer-one-bottom-lg">
@@ -24,25 +25,46 @@ export default function Events({locale, desktopAsset}) {
                             {locale === 'us' ? (
                                 <>
                                     <>
-                                        <h4 className="day-tag"><strong>FRI <br/><span style={{fontSize: '12px'}}>May 19</span></strong></h4>
+                                        <h4 className="day-tag"><strong>FRI <br/><span
+                                            style={{fontSize: '12px'}}>May 19</span></strong></h4>
                                         <div className="icon-round mb-5 mb-md-3  bg-icon-primary">
                                             <h2 style={{margin: 0}}>🍕</h2>
                                         </div>
-                                        <h5 className="mb-0"><strong>Rehersal Dinner</strong></h5>
-                                        <h6 className="mb-5">6:00pm @Flying Caballos</h6>
-                                        <p className="text-align-center">Please tell us if you can make it</p>
+                                        <h5 className="mb-0"><strong>Welcome Dinner</strong></h5>
+                                        {currentYear === enableYear ? (
+                                            <>
+                                                <h6 className="mb-5">6:00pm @Flying Caballos</h6>
+                                                <p className="text-align-center">Please tell us if you can make it</p>
+                                            </>
+                                        ) : (
+                                            <>
+                                                <p className="text-align-center">More details to follow</p>
+                                            </>
+                                        )
+                                        }
+
                                     </>
                                 </>
                             ) : locale === 'at' ? (
                                 <>
                                     <>
-                                        <h4 className="day-tag"><strong>THU <br/><span style={{fontSize: '12px'}}>Jul 13</span></strong></h4>
+                                        <h4 className="day-tag"><strong>THU <br/><span
+                                            style={{fontSize: '12px'}}>Jul 13</span></strong></h4>
                                         <div className="icon-round mb-5 mb-md-3  bg-icon-primary">
                                             <h2 style={{margin: 0}}>🍕</h2>
                                         </div>
                                         <h5 className="mb-0"><strong>Family Dinner</strong></h5>
-                                        <h6 className="mb-5">6:00pm @TBD</h6>
-                                        <p className="text-align-center">Please tell us if you can make it</p>
+                                        {currentYear === enableYear ? (
+                                            <>
+                                                <h6 className="mb-5">6:00pm @TBD</h6>
+                                                <p className="text-align-center">Please tell us if you can make it</p>
+                                            </>
+                                        ) : (
+                                            <>
+                                                <p className="text-align-center">More details to follow</p>
+                                            </>
+                                        )
+                                        }
                                     </>
                                 </>
                             ) : null}
@@ -53,13 +75,23 @@ export default function Events({locale, desktopAsset}) {
                             {locale === 'us' ? (
                                 <>
                                     <>
-                                        <h4 className="day-tag primary"><strong>SAT <br/><span style={{fontSize: '12px'}}>May 20</span></strong></h4>
+                                        <h4 className="day-tag primary"><strong>SAT <br/><span
+                                            style={{fontSize: '12px'}}>May 20</span></strong></h4>
                                         <div className="icon-round mb-3 mb-md-3  bg-icon-white">
                                             <h2 style={{margin: 0}}>💍</h2>
                                         </div>
                                         <h5 className="mb-0 text-white"><strong>Wedding Ceremony</strong></h5>
-                                        <h6 className="mb-5 text-white">3:30PM @Flying Caballos</h6>
-                                        <p className="text-align-center">Please be seated by 04:00pm</p>
+                                        {currentYear === enableYear ? (
+                                            <>
+                                                <h6 className="mb-5 text-white">3:30PM @Flying Caballos</h6>
+                                                <p className="text-align-center">Please be seated by 04:00pm</p>
+                                            </>
+                                        ) : (
+                                            <>
+                                                <p className="text-align-center">More details to follow</p>
+                                            </>
+                                        )
+                                        }
                                     </>
                                     <br/>
                                     <>
@@ -67,24 +99,44 @@ export default function Events({locale, desktopAsset}) {
                                             <h2 style={{margin: 0}}>🥂</h2>
                                         </div>
                                         <h5 className="mb-0 text-white"><strong>Wedding Celebration</strong></h5>
-                                        <h6 className="mb-5 text-white">4:30pm - 11:00pm @Flying Caballos</h6>
-                                        <p className="text-align-center">
-                                            4:30pm Cocktail Hour | 5:30pm Dinner <br/>
-                                            7:00pm Party | 9:00pm Snacks
+                                        {currentYear === enableYear ? (
+                                            <>
+                                                <h6 className="mb-5 text-white">4:30pm - 11:00pm @Flying Caballos</h6>
+                                                <p className="text-align-center">
+                                                    4:30pm Cocktail Hour | 5:30pm Dinner <br/>
+                                                    7:00pm Party | 9:00pm Snacks
 
-                                        </p>
+                                                </p>
+                                            </>
+                                        ) : (
+                                            <>
+                                                <p className="text-align-center">More details to follow</p>
+                                            </>
+                                        )
+                                        }
                                     </>
                                 </>
                             ) : locale === 'at' ? (
                                 <>
                                     <>
-                                        <h4 className="day-tag primary"><strong>FRI <br/><span style={{fontSize: '12px'}}>Jul 14</span></strong></h4>
+                                        <h4 className="day-tag primary"><strong>FRI <br/><span
+                                            style={{fontSize: '12px'}}>Jul 14</span></strong></h4>
                                         <div className="icon-round mb-3 mb-md-3  bg-icon-white">
                                             <h2 style={{margin: 0}}>💍</h2>
                                         </div>
                                         <h5 className="mb-0 text-white"><strong>Wedding Ceremony</strong></h5>
-                                        <h6 className="mb-5 text-white">3:30PM @Die.Deantnerin</h6>
-                                        <p className="text-align-center">Please be seated by 04:00pm</p>
+                                        {currentYear === enableYear ? (
+                                            <>
+                                                <h6 className="mb-5 text-white">3:30PM @Die.Deantnerin</h6>
+                                                <p className="text-align-center">Please be seated by 04:00pm</p>
+                                            </>
+                                        ) : (
+                                            <>
+                                                <p className="text-align-center">More details to follow</p>
+                                            </>
+                                        )
+                                        }
+
                                     </>
                                     <br/>
                                     <>
@@ -92,12 +144,21 @@ export default function Events({locale, desktopAsset}) {
                                             <h2 style={{margin: 0}}>🥂</h2>
                                         </div>
                                         <h5 className="mb-0 text-white"><strong>Wedding Celebration</strong></h5>
-                                        <h6 className="mb-5 text-white">4:30pm - 2:00am @Die.Deantnerin</h6>
-                                        <p className="text-align-center">
-                                            4:30pm Cocktail Hour | 5:30pm Dinner <br/>
-                                            7:00pm Party | 12:00am Midnight Snack
+                                        {currentYear === enableYear ? (
+                                            <>
+                                                <h6 className="mb-5 text-white">4:30pm - 2:00am @Die.Deantnerin</h6>
+                                                <p className="text-align-center">
+                                                    4:30pm Cocktail Hour | 5:30pm Dinner <br/>
+                                                    7:00pm Party | 12:00am Midnight Snack
 
-                                        </p>
+                                                </p>
+                                            </>
+                                        ) : (
+                                            <>
+                                                <p className="text-align-center">More details to follow</p>
+                                            </>
+                                        )
+                                        }
                                     </>
                                 </>
                             ) : null}
@@ -107,7 +168,9 @@ export default function Events({locale, desktopAsset}) {
                 <div className="row">
                     <div className="col">
                         <div className=" text-center mt-5 pt-5">
-                            <a href="#rsvp" className="btn btn-primary btn-wide-lg btn-lg  scroll">RSVP</a>
+                            {currentYear === enableYear ? (
+                                <a href="#rsvp" className="btn btn-primary btn-wide-lg btn-lg  scroll">RSVP</a>
+                            ) : null}
                         </div>
                     </div>
                 </div>

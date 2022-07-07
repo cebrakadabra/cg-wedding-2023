@@ -1,7 +1,7 @@
 import React from 'react';
 // import FontAwesomeIcon from
 
-export default function Hero({bg, date, address}) {
+export default function Hero({bg, date, address, enableYear, currentYear}) {
     return (
         <section className="gradient-overlay gradient-overlay-dark ">
             <img className="bg-image" src={bg} alt=""/>
@@ -9,8 +9,9 @@ export default function Hero({bg, date, address}) {
                 <div className="row min-vh-80 align-items-center z-index-2 position-relative text-center">
                     <div className="col-12">
                         <img src="/assets/img/logo/cg-white.png" alt="" style={{width: '360px'}}/>
-                        <p className="font-weight-300 lead mb-5 " style={{color: '#ffffff'}}>🤵🏻 💍 👰🏻<br/>{date}<br/><small style={{fontSize: '14px'}}>{address}</small></p>
-                        <a href="#rsvp" className="btn btn-primary btn-wide-md btn-md  scroll">&nbsp;&nbsp;&nbsp;RSVP&nbsp;&nbsp;&nbsp;</a>
+                        <p className="font-weight-400 lead mb-5 font-secondary " style={{color: '#ffffff', fontSize: '32px'}}>{date}</p>
+                        <a href="#rsvp" className="btn btn-primary btn-wide-md btn-md  scroll" style={{visibility: enableYear === currentYear ? 'visible' : 'hidden'}}>&nbsp;&nbsp;&nbsp;RSVP&nbsp;&nbsp;&nbsp;</a>
+                        <p><small style={{fontSize: '16px', position: 'absolute', margin: 'auto', left: 0, right: 0, bottom: '-58%', color: '#ffffff'}}>{address}</small></p>
                     </div>
                 </div>
             </div>
