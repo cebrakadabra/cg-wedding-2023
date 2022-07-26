@@ -1,0 +1,74 @@
+.video-header {
+    position: absolute;
+    z-index: 19;
+    top: 20px;
+    left: 12px;
+    right: 12px;
+    color: #ffffff;
+
+    &-inner {
+        display: flex;
+        align-items: center;
+
+        span {
+            display: flex;
+            flex-direction: column;
+            filter: drop-shadow(rgba(0, 0, 0, 0.9) 0px 0px 3px);
+        }
+
+        p.insta-heading {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin: 0 0 2px;
+        }
+
+        p.insta-subheading {
+            font-size: 0.6rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 0;
+        }
+    }
+}
+
+.video-controls {
+    position: absolute;
+    z-index: 20;
+    transform: scale(3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+    .play-button {
+        box-sizing: border-box;
+        position: relative;
+        display: block;
+        transform: scale(var(--ggs,1));
+        width: 22px;
+        height: 22px;
+
+        &-outer {
+            width: 25px;
+            height: 25px;
+            border-radius: 25px;
+            background-color: rgba(255,255,255,0.2);
+        }
+    }
+
+    .play-button::before {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        position: absolute;
+        width: 0;
+        height: 10px;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 6px solid #000;
+        top: 8px;
+        left: 10.5px
+    }
+}

@@ -1,7 +1,10 @@
 import React from 'react';
 import dynamic from 'next/dynamic'
 const Stories = dynamic(() => import('react-insta-stories'), { ssr: false });
-import { isMobile } from 'react-device-detect'
+import { isMobile } from 'react-device-detect';
+
+import { renderer, tester } from './VideoHOC';
+
 require('./Video.less');
 
 export default function Video({}) {
@@ -53,10 +56,12 @@ export default function Video({}) {
             <section className="gradient-overlay align-middle">
                 <Stories
                     loop
+                    isPaused
                     stories={stories}
                     defaultInterval={1500}
                     width={isMobile ? "100%" : "337.5px"}
                     height={isMobile ? "100%" : "600px"}
+                    renderers={[{renderer, tester}]}
                 />
                 {/*      <img className="bg-image" src="assets/img/2.jpg" alt=""/>*/}
                 {/*      <div className="container">*/}
