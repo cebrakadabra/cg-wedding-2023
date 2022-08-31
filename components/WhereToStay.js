@@ -82,7 +82,7 @@ export default function WhereToStay({locale}) {
                                     <span className="badge">Hotel</span>
                                 </div>
                                 <h5 className="mt-3 mb-3">Tante Frida (for Kids)</h5>
-                                <p>Austria Hochkönigstraße 31, <br/>Maria Alm, Austria</p>
+                                <p>Hochkönigstraße 31, <br/>Maria Alm, Austria</p>
                                 <a href="https://goo.gl/maps/r9x34pmzaFigys2n7" target="_blank" className="hover-arrow">Open Map
                                     <span className="fa fa-arrow-right" />
                                 </a>
