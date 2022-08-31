@@ -53,7 +53,7 @@ export default function Events({locale, desktopAsset, enableYear, currentYear}) 
                                         <div className="icon-round mb-5 mb-md-3  bg-icon-primary">
                                             <h2 style={{margin: 0}}>🍕</h2>
                                         </div>
-                                        <h5 className="mb-0"><strong>Family Dinner</strong></h5>
+                                        <h5 className="mb-0"><strong>Welcome Dinner</strong></h5>
                                         {currentYear === enableYear ? (
                                             <>
                                                 <h6 className="mb-5">6:00pm @TBD</h6>
