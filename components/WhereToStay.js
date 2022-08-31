@@ -10,7 +10,7 @@ export default function WhereToStay({locale}) {
                             <h1 className="display-4 ">Where To Stay</h1>
                             <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">A Shuttle will be available from these hotels to and from the venue for a small fee</p>
                             <br/>
-                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">We will try to organize hotel blocks</p>
+                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Please reach out to us for room reservations as we are in touch with the hotels</p>
                         </div>
                     </div>
                 </div>
@@ -64,19 +64,6 @@ export default function WhereToStay({locale}) {
                     <>
                         <div className="row text-center">
                             <div className="col-md-4 mb-3 mb-md-0 ">
-                                <img src="assets/img/accommodation/1-at.jpeg" alt="" className="rounded img-fluid"/>
-                                <div className="badge-overlap ">
-                                    <span className="badge">Hotel</span>
-                                </div>
-                                <h5 className="mt-3 mb-3">Hotel-Gasthof Salzburger Hof</h5>
-                                <p>Dorf 6, <br/>Dienten am Hochkönig, Austria</p>
-                                <a href="https://goo.gl/maps/zfatiD3SbDgXgWP97" target="_blank" className="hover-arrow">Open Map
-                                    <span className="fa fa-arrow-right" />
-                                </a>
-                                <br/>
-                                <br/>
-                            </div>
-                            <div className="col-md-4 mb-3 mb-md-0 ">
                                 <img src="assets/img/accommodation/2-at.jpeg" alt="" className="rounded img-fluid"/>
                                 <div className="badge-overlap ">
                                     <span className="badge">Hotel</span>
@@ -84,6 +71,19 @@ export default function WhereToStay({locale}) {
                                 <h5 className="mt-3 mb-3">Hotel Eder</h5>
                                 <p>Am Dorfpl. 5, <br/> Maria Alm, Austria</p>
                                 <a href="https://goo.gl/maps/mgH3Ma1c7byFJnVM8" target="_blank" className="hover-arrow">Open Map
+                                    <span className="fa fa-arrow-right" />
+                                </a>
+                                <br/>
+                                <br/>
+                            </div>
+                            <div className="col-md-4 mb-3 mb-md-0 ">
+                                <img src="assets/img/accommodation/1-at.jpeg" alt="" className="rounded img-fluid"/>
+                                <div className="badge-overlap ">
+                                    <span className="badge">Hotel</span>
+                                </div>
+                                <h5 className="mt-3 mb-3">Tante Frida (for Kids)</h5>
+                                <p>Austria Hochkönigstraße 31, <br/>Maria Alm, Austria</p>
+                                <a href="https://goo.gl/maps/r9x34pmzaFigys2n7" target="_blank" className="hover-arrow">Open Map
                                     <span className="fa fa-arrow-right" />
                                 </a>
                                 <br/>
