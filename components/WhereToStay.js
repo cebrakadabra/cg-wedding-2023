@@ -35,7 +35,7 @@ export default function WhereToStay({locale}) {
                                 <div className="badge-overlap">
                                     <span className="badge">Hotel</span>
                                 </div>
-                                <h5 className="mt-3 mb-3">The Kinney</h5>
+                                <h5 className="mt-3 mb-3">The Wayfarer</h5>
                                 <p>1800 Monterey St,<br/>San Luis Obispo, CA 93401
                                 </p>
                                 <a href="https://goo.gl/maps/XdsBfQy1Tq6fd2ua7" target="_blank" className="hover-arrow">Open Map
