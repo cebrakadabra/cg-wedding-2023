@@ -10,7 +10,9 @@ export default function WhereToStay({locale}) {
                             <h1 className="display-4 ">Where To Stay</h1>
                             <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">A Shuttle will be available from these hotels to and from the venue for a small fee</p>
                             <br/>
-                            <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Please reach out to us for room reservations as we are in touch with the hotels</p>
+                            {locale !== 'us' ? (
+                                <p className="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Please reach out to us for room reservations as we are in touch with the hotels</p>
+                            ) : null}
                         </div>
                     </div>
                 </div>
