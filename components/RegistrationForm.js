@@ -17,7 +17,7 @@ export default function RegistrationForm({googleFormLink, enableYear, currentYea
                 <div className="row justify-content-center">
                     <div className="col-xl-5 col-lg-5 col-md-6">
                             <div className="form-group text-center">
-                                {currentYear >= enableYear ? (
+                                {currentYear !== enableYear ? (
                                     <>
                                         <a className="btn btn-lg btn-block btn-primary"
                                            href={googleFormLink}
