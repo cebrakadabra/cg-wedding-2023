@@ -10,7 +10,11 @@ export default function GiftRegistry({}) {
                         {/*<p className="lead text-white mb-0">Details to follow</p>*/}
                     </div>
                     <div className="col-md-5">
-                        <small className="text-uppercase mb-5 font-weight-600 text-light upper-letter-space">Details to follow</small>
+                        <small className="text-uppercase mb-5 font-weight-600 text-light upper-letter-space">You can gift Chris & Georgia either experiences for their honeymoon, or goods for their life together</small>
+                        <a className="btn btn-lg btn-block btn-secondary"
+                           href="https://www.zola.com/registry/chrisandgeorgiamay20"
+                           target="_blank"
+                        >Show List</a>
                     </div>
                 </div>
             </div>
